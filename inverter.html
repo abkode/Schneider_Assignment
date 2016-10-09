@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Assignment</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!--<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" >
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/app.js" ></script>
+  
+  
+</head>
+<body ng-app="app">
+    <div class="container text-center">
+        <div class="inventerContainer">
+            <div class="header">
+                <h3>Conext SmartGen 1</h3>
+                <img src="image/icons/icon_1.png" />
+                <div class="header_online"><h3>Online</h3> </div>
+            </div>
+            <div class="icon_set">
+                <img id="ACHealth" src="image/icons/ACHealth_Grey.svg" /> 
+                <img id="DChealth" src="image/icons/DCHealth_Grey.svg" />
+                <img id="ActivePower" src="image/icons/ActivePowerLimit_Grey.svg" />
+                <img id="Env" src="image/icons/Environment_Grey.svg" />
+                <img id="ReactivePower" src="image/icons/ReactivePower_Grey.svg" />
+                <img id="Derating" src="image/icons/Derating_Grey.svg" />
+                <img id="GroundFault" src="image/icons/GroundFault_Grey.svg" />
+                <img id="ServiceMode" src="image/icons/ServiceMode_Grey.svg" />
+            </div>
+            <div id="pdc_pac" class="pdc_pac">
+                <div class="row">
+                    <div class="col-md-6"><h4>Pdc <span id="pdc"><strong>1982.01</strong></span> kW</h4></div>
+                    <div class="col-md-6 float"><h4>Pac <span id="pac"><strong>1952.28</strong></span> kW</h4></div>
+                    <img class="icon_inside" src="image/icons/icon_019.png" />
+                </div>
+                
+            </div>
+            <div id="q">
+                <h4>Q <strong>0.00</strong> kVAr</h4>
+            </div>
+            <br><br>
+            <div id="temperature">
+                 <div class="row">
+                    <div class="col-md-6">
+                        <h4>Internal Temperature<br><span>41.90 C</span></h4>
+                    </div>
+                    <div class="col-md-6 float">
+                        <h4>Daily Production<br><span>95.90 kWh</span></h4>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mediaCheck"></div>
+</body>
+</html>

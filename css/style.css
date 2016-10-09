@@ -1,0 +1,322 @@
+html,body{
+    height:100%;
+    margin: 0;
+    font-family: "Arial Rounded", "Lucida Grande", Lucida, "Lucida Sans Unicode", sans-serif;
+    background-color: white;
+    
+}
+
+.loginBackgroundImage {
+    overflow: hidden;
+    background-image: url('../image/background_login_tablet.png');
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    margin:0;
+    padding:0px;
+}
+
+.mediaCheck
+{
+    float: left;
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+
+    .mediaCheck {float: none;}
+
+    .loginBackgroundImage {
+        overflow: hidden;
+        background-image: url('../image/background_login_tablet.png');
+        -webkit-background-size: 100% auto;
+        -moz-background-size: 100% auto;
+        -o-background-size: 100% auto;
+        background-size: 100% auto;
+        height: 200px;
+        margin:0;
+        padding:0px;
+    }
+
+    .logoFooter {
+        display: none;
+    }
+
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+  
+    .mediaCheck {float: none;}
+
+    .loginBackgroundImage {
+        overflow: hidden;
+        background-image: url('../image/background_login_tablet.png');
+        -webkit-background-size: 100% auto;
+        -moz-background-size: 100% auto;
+        -o-background-size: 100% auto;
+        background-size: 100% auto;
+        height: 200px;
+        margin:0;
+        padding:0px;
+    }
+
+    .logoFooter {
+        display: none;
+    }
+ 
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+
+    .mediaCheck {float: none;}
+    
+    .loginBackgroundImage {
+        overflow: hidden;
+        background-image: url('../image/background_login_tablet.png');
+        -webkit-background-size: 100% auto;
+        -moz-background-size: 100% auto;
+        -o-background-size: 100% auto;
+        background-size: 100% auto;
+        height: 200px;
+        margin:0;
+        padding:0px;
+    }
+  
+    .logoFooter {
+        display: none;
+    }
+ 
+} 
+
+
+.logoContainer{
+    width: 100%;
+    top: 0;
+    padding-top: 240px;   
+}
+.logoContainer h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.logoContainer p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.logo{
+    width: 175px;
+}
+
+.loginMiddleBar {
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*padding: 0 0 9999px 0;
+    margin: 0 0 -9999px 0;*/
+    
+}
+
+.formPanel {
+    background-color: white;
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*padding: 0 0 9999px 0;
+    margin: 0 0 -9999px 0; */
+    padding-left: 10px;
+    /*left: 3%;*/
+}
+
+.loginForm{
+    padding-right: 55px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.b1 {
+    background-color:#32ad3b;
+    /*padding: 0 0 9999px 0;
+    margin: 0 0 -9999px 0;*/
+    color:#32ad3b;
+    
+    height: 100vh;
+    bottom: 0;
+    
+ 
+}
+.b2 {
+    background-color: #3ecd59;
+    /*padding: 0 0 9999px 0;
+    margin: 0 0 -9999px 0; */
+    color: #3ecd59;
+
+    height: 100vh;
+    bottom: 0;
+    
+}
+
+.logoFooter {
+    bottom:0;
+    position: absolute;
+    padding-bottom: 25px;
+    /*margin-bottom: -9999px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 12px;
+    font-family: "Arial Rounded", "Lucida Grande", Lucida, "Lucida Sans Unicode", sans-serif;
+}
+
+.fotter_title{
+    text-decoration: underline;
+}
+
+.sps {
+    width: 320px;
+    background-color: #ededed;
+    padding: 15px 30px 30px 30px;
+}
+.sps h1 {
+    font-size: 20px;
+    color:#32ad3b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.sps img {
+    float: right;
+}
+
+
+.btn-default {
+    background-repeat: repeat-x;
+    border-color: #cacaca;
+    border-bottom: 2px solid #dc0a0b;
+    width: 260px;
+    text-align: right;
+    color: #dbdbdb;
+    background: none;
+    background-color: white;
+    border-radius: 0;
+}
+
+.dropdown-menu {
+    width: 260px;
+}
+
+.form {
+    padding-top: 30px;
+    text-align: center;
+    width: 320px;
+    /*background-color: red;*/
+
+}
+
+.form input{
+    margin-bottom: 15px;
+    width: 260px;
+}
+
+.form input[type="text"]{
+    border: none;
+    height: 35px;
+    background-color: #faffbd;
+    border-bottom: 2px solid #009531;
+    
+}
+
+.form input[type="password"]{
+    border: none;
+    height: 35px;
+    background-color: #faffbd;
+    border-bottom: 2px solid #009531;
+    
+}
+
+.formMsg {
+    width: 260px;
+    border-radius: 6px;
+    color: #575757;
+    background-color: #eee;
+    margin-left:30px;
+    padding: 10px;
+}
+
+.error_msg {
+    color:red;
+    font-size: 12px;
+
+}
+
+.inventerContainer{
+    display: table;
+    margin: 0 auto;
+    width: 500px;
+    height: 450px;
+    border: 1px solid #c6c6c6;
+}
+
+.header {
+    background-color: #70e07c;
+    /*height: 100px;*/
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.header img{
+    width: 120px;
+}
+.header_online {
+    float: right;
+    padding-right: 15px;
+}
+.icon_set{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.icon_set img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.pdc_pac {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 3px dotted  #c6c6c6;
+}
+.float {
+    float: right;
+}
+
+.icon_inside{
+    position: absolute;
+    left:47%;
+    top: 40%;
+}
+#q {
+    float: right;
+    padding-right: 15px;
+    
+}
+
+#temperature {
+    margin-top: 40px;
+}
+#temperature span {
+    color:#70e07c;
+    font-weight: bold;
+    
+}
